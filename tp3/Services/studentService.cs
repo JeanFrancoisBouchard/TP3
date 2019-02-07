@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using TP3___Entrepot.Models;
+using tp3.Models;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 
-namespace TP3___Entrepot.Services
+namespace tp3.Services
 {
     public class studentService
     {

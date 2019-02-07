@@ -23,9 +23,9 @@ namespace TP3___Entrepot.Controllers
         }
 
         [HttpGet("{da}")]
-        public ActionResult<etudiants> Get(string id)
+        public ActionResult<etudiants> Get(string da)
         {
-            var etudiant = _studentService.Get(id);
+            var etudiant = _studentService.Get(da);
 
             if (etudiant == null)
             {
